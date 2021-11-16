@@ -1,8 +1,10 @@
-= slotchmod
+= TODO
 :sectnums:
 :toc: left
 
-TODO overview.
+This is a common template repository.
+
+TODO
 
 == Usage
 
