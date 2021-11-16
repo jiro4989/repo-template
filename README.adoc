@@ -1,0 +1,35 @@
+= slotchmod
+:sectnums:
+:toc: left
+
+TODO overview.
+
+== Usage
+
+[source,bash]
+----
+TODO
+----
+
+== Installation
+
+[source,bash]
+----
+TODO
+----
+
+== Development
+
+=== How to build
+
+[source,bash]
+----
+TODO
+----
+
+=== How to test
+
+[source,bash]
+----
+TODO
+----
