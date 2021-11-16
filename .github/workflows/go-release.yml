@@ -10,7 +10,7 @@ env:
   app: 'TODO'
   go-version: '1.17'
   build_opts: '-ldflags="-s -w -extldflags \"-static\""'
-  maintainer: 'jiro4989'
+  maintainer: 'jiro'
   package_desc: 'TODO'
 
 jobs:
