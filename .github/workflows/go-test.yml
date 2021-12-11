@@ -35,6 +35,15 @@ jobs:
       - uses: actions/setup-go@v1
         with:
           go-version: ${{ matrix.go }}
+      - name: Check code format
+        run: |
+          go mod download
+          go fmt ./... | tee gofmt.result
+          count="$(wc -l < gofmt.result)"
+          if [[ "$count" -ne 0 ]]; then
+            echo "[ERR] please run 'go fmt ./...'" >&2
+            exit 1
+          fi
       - run: go build
       - run: go install
       - run: go test -cover ./...
