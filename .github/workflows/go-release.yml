@@ -159,7 +159,8 @@ jobs:
       - id: vars
         run: |
           echo "::set-output name=upload_url::$(cat upload_url.txt)"
-          echo "::set-output name=asset_name::$(ls ${{ env.app }}-${{ matrix.os }}-${{ matrix.arch }}.* | head -n 1)"
+          asset_name="$(ls ${{ env.app }}-${{ matrix.os }}-${{ matrix.arch }}.* | head -n 1)"
+          echo "::set-output name=asset_name::${asset_name}"
 
       - name: Upload Release Asset
         id: upload-release-asset
