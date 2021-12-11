@@ -2,9 +2,23 @@
 :sectnums:
 :toc: left
 
-This is a common template repository.
+This is a general-purpose template repository. It has pre-defined GitHub Actions
+for testing and cross-platform releases for multiple programming languages. With
+a few modifications, GitHub Actions are ready to go.
 
-TODO
+== Supported languages
+
+* Go
+* Nim
+
+== Getting started
+
+Remove not `go-*.yml` files if you want to setup Go environment.
+
+[source,bash]
+----
+rm ./github/workflows/nim-*.yml
+----
 
 == Usage
 
