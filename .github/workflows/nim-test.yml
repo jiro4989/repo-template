@@ -9,11 +9,13 @@ on:
       - README*
       - LICENSE
       - '**.md'
+      - '**.adoc'
   pull_request:
     paths-ignore:
       - README*
       - LICENSE
       - '**.md'
+      - '**.adoc'
 
 jobs:
   test:
