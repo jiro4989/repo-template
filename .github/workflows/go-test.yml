@@ -1,7 +1,7 @@
 ---
 name: go test
 
-on:
+"on":
   push:
     branches:
       - main

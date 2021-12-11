@@ -1,7 +1,7 @@
 ---
 name: nim release
 
-on:
+"on":
   push:
     tags:
       - 'v*.*.*'

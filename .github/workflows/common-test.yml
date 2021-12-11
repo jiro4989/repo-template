@@ -1,7 +1,7 @@
 ---
 name: common test
 
-on:
+"on":
   push:
     branches:
       - main
