@@ -20,11 +20,13 @@ Remove not `go-*.yml` files if you want to setup Go environment.
 rm ./github/workflows/nim-*.yml
 ----
 
-And set your text to `TODO`.
+Set values (year, your name) to `setup.sed`.
+And run `setup.sh`
 
 [source,bash]
 ----
-grep "TODO" .github/workflows/*
+vim setup.sed # edit values
+./setup.sh
 ----
 
 == Usage
