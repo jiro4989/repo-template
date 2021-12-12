@@ -9,7 +9,7 @@ name: nim release
 env:
   app: 'TODO'
   nim-version: '1.6.0'
-  maintainer: 'jiro'
+  maintainer: '{{__MAINTAINER__}}'
   package_desc: 'nimjson generates nim object definitions from json documents.'
   documents: LICENSE README.*
 

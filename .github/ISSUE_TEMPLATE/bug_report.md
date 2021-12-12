@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: bug
-assignees: jiro4989
+assignees: {{__ASSIGNEE__}}
 
 ---
 
