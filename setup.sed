@@ -1,3 +1,2 @@
-s/{{__YEAR__}}/YYYY/g
 s/{{__MAINTAINER__}}/YOUR_NAME/g
 s/{{__ASSIGNEE__}}/YOUR_GITHUB_ID/g
